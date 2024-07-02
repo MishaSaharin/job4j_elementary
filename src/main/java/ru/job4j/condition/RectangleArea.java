@@ -4,9 +4,7 @@ public class RectangleArea {
     public static double square(double p, double k) {
         double height = p / (2 * (k + 1));
         double length = height * k;
-        double square = length * height;
-        double result = square;
-        return result;
+        return length * height;
     }
 
     public static void main(String[] args) {
